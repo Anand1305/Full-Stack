@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<titlle> The First Pract </title><br>
+<head>
+	This is the first page 
+</head>
+<style>
+	div {
+  border-style: solid;
+  border-color: black;
+}
+   div{
+   	border-style: solid;
+   	border-color: black;
+
+   }
+   .central
+   {
+   	text-align: center;
+   	background-color:gray ;
+   }
+</style><br>
+<body class="central">
+
+<div class="central"> <h2>This is the video</h2><br>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+</div><br>
+
+<div class="central">
+	<h1>This is Audio</h1>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+ </audio>
+	
+</div><br>
+<div>
+<form action="/action_page.php" class="centeral">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit">
+</form>
+
+<form action="/action_page.php" class="centeral">
+  <p>Please select your favorite Web language:</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+
+  <br>  
+
+  <p>Please select your age:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+
+</body>
+
+</html>
+
